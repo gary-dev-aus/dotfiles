@@ -1,0 +1,12 @@
+live_config_reload = true
+
+[font]
+size = 14
+
+[font.normal]
+family = "JetBrainsMono NFP"
+
+[window]
+opacity = 0.8
+padding = { x = 15, y = 25 }
+
