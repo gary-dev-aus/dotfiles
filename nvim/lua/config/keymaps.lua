@@ -7,6 +7,10 @@ local map = vim.keymap.set
 -- Undo
 map("n", "U", "<c-r>", { noremap = true, silent = true })
 
+-- Switch default paste behavior
+map("x", "p", "P", { noremap = true, silent = true })
+map("x", "P", "p", { noremap = true, silent = true })
+
 ---@param current number
 ---@param transformed number
 local function convertTabSpaces(current, transformed)
